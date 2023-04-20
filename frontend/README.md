@@ -1,3 +1,15 @@
+# Pointing the frontend at a smart contract
+
+Create a file `frontend/.env.local` with the following content:
+
+```ini
+NEXT_PUBLIC_CONTRACT_ID=dev-1680780034311-64281936051905
+```
+
+You may replace the part after the equals sign `=` with the ID of a contract that you deployed if you wish. Otherwise, that contract is a testnet deployment with some sample data in it. Feel free to use it if you wish.
+
+# Next.js Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
