@@ -5,7 +5,7 @@ use near_sdk::{
     near_bindgen, require,
     serde::{Deserialize, Serialize},
     store::*,
-    AccountId, BorshStorageKey, Promise, PanicOnDefault,
+    AccountId, BorshStorageKey, PanicOnDefault, Promise,
 };
 use near_sdk_contract_tools::{event, standard::nep297::Event};
 
